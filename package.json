@@ -1,0 +1,29 @@
+{
+  "name": "legenda-podillia-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamchinsky/legenda-podillia-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamchinsky/legenda-podillia-backend/issues"
+  },
+  "homepage": "https://github.com/yamchinsky/legenda-podillia-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
